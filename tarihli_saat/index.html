@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .vakit {
+            background: #0f3854;
+            background: radial-gradient(ellipse at center, #0a2e38 0%, #000 70%);
+            background-size: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 0 0 20px #0aafe6;
+            font-weight: bold;
+
+        }
+
+        .vakit img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        #tarih {
+            color: #daf6ff;
+            font-size: 18px;
+            margin-bottom: 10px;
+            letter-spacing: 4px;
+            text-align: center;
+        }
+
+        #zaman {
+            text-align: center;
+            font-size: 60px;
+            letter-spacing: 5px;
+            color: #daf6ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="vakit">
+        <img src="assets/img/calendar (1).png" alt="">
+        <div id="tarih"></div>
+        <div id="zaman"></div>
+    </div>
+
+
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
